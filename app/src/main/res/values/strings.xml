@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">MedMinder</string>
+    <string name="welcome">Welcome!</string>
+    <string name="mission">A safeguard for your medical reminders.</string>
+    <string name="instructions">Here\'s how it works:</string>
+    <string name="step1">1. Tap \"Begin\".</string>
+    <string name="step2">2. Select your medications from their categories.</string>
+    <string name="step3">3. Tap the medical icon to view your treatment \n\t\tsummary.</string>
+    <string name="step4">4. Select a start date, time, and the number of times \n \t \tto be reminded for each medication.</string>
+    <string name="step5">5. Once you are done, send your reminders to your \n\t\tcalendar app!</string>
+    <string name="begin">Begin</string>
+    <string name="treatments">Treatments</string>
+    <string name="cataract_surgery">Cataract Surgery</string>
+    <string name="glaucoma">Glaucoma</string>
+    <string name="uveitis">Uveitis</string>
+    <string name="dry_eye">Dry Eye</string>
+    <string name="instructions_home">Select a category to begin choosing treatments.</string>
+    <string name="cataract1">Combination</string>
+    <string name="cataract2">Antibiotic</string>
+    <string name="cataract3">Steroid</string>
+    <string name="cataract4">Non-Steroidal</string>
+    <string name="cataract5">Ointment</string>
+</resources>

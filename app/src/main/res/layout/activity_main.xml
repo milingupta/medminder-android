@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".MainActivity">
+
+        <ImageView
+            android:id="@+id/imageViewAppIcon"
+            android:layout_width="75dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@mipmap/ic_launcher_round"
+            tools:ignore="ContentDescription" />
+
+        <TextView
+            android:id="@+id/textViewWelcomeMessage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="400dp"
+            android:text="@string/welcome"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display3"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageViewAppIcon" />
+
+        <TextView
+            android:id="@+id/textViewMission"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1dp"
+            android:layout_marginBottom="356dp"
+            android:text="@string/mission"
+            android:textAppearance="@style/TextAppearance.AppCompat.Medium"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textViewWelcomeMessage" />
+
+        <TextView
+            android:id="@+id/textViewInstructions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="@string/instructions"
+            app:layout_constraintStart_toStartOf="@+id/textViewMission"
+            app:layout_constraintTop_toBottomOf="@+id/textViewMission" />
+
+        <TextView
+            android:id="@+id/textViewStep1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="@string/step1"
+            app:layout_constraintStart_toStartOf="@+id/textViewInstructions"
+            app:layout_constraintTop_toBottomOf="@+id/textViewInstructions" />
+
+        <TextView
+            android:id="@+id/textViewStep2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="@string/step2"
+            app:layout_constraintStart_toStartOf="@+id/textViewStep1"
+            app:layout_constraintTop_toBottomOf="@+id/textViewStep1" />
+
+        <TextView
+            android:id="@+id/textViewStep3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="@string/step3"
+            app:layout_constraintStart_toStartOf="@+id/textViewStep2"
+            app:layout_constraintTop_toBottomOf="@+id/textViewStep2" />
+
+        <TextView
+            android:id="@+id/textViewStep4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="@string/step4"
+            app:layout_constraintStart_toStartOf="@+id/textViewStep3"
+            app:layout_constraintTop_toBottomOf="@+id/textViewStep3" />
+
+        <TextView
+            android:id="@+id/textViewStep5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="18dp"
+            android:text="@string/step5"
+            app:layout_constraintStart_toStartOf="@+id/textViewStep4"
+            app:layout_constraintTop_toBottomOf="@+id/textViewStep4" />
+
+        <Button
+            android:id="@+id/buttonBegin"
+            android:textColor="@color/black"
+            android:backgroundTint="@color/design_default_color_secondary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="22dp"
+            android:text="@string/begin"
+            app:layout_constraintEnd_toEndOf="@+id/textViewMission"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/textViewMission"
+            app:layout_constraintTop_toBottomOf="@+id/textViewStep5" />
+
+        <ImageView
+            android:id="@+id/imageViewSummaryIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="4dp"
+            app:layout_constraintEnd_toEndOf="@+id/textViewMission"
+            app:layout_constraintTop_toBottomOf="@+id/textViewStep2"
+            app:srcCompat="@drawable/ic_treatment_summary"
+            app:tint="@color/black"
+            tools:ignore="ContentDescription" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
