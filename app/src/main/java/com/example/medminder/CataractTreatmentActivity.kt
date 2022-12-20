@@ -33,7 +33,7 @@ class CataractTreatmentActivity : AppCompatActivity() {
         recyclerView.setHasFixedSize(true)
 
         val actionBar = supportActionBar
-        actionBar!!.title = "Cataract Surgery"
+        actionBar!!.title = "Cataract"
         actionBar.setDisplayHomeAsUpEnabled(true)
     }
 
